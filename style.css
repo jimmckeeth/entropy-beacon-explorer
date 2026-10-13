@@ -201,3 +201,6 @@ button.primary { background: var(--accent); color: var(--accent-text); border-co
 .acc-log { font-family: ui-monospace, monospace; font-size: 0.78rem; max-height: 22rem; overflow: auto; white-space: pre-wrap; word-break: break-all; background: var(--surface-2); border-radius: 6px; padding: 0.5rem; margin: 0; }
 .acc-log .src { color: var(--muted); }
 .acc-actions { display: flex; gap: 0.5rem; }
+.endpoints .kv { grid-template-columns: 8.5rem minmax(0, 1fr) auto; }
+.endpoints .kv .k { white-space: nowrap; }
+@media (max-width: 800px) { .endpoints .kv { grid-template-columns: 1fr auto; } }
